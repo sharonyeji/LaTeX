@@ -15,51 +15,63 @@
  
 \begin{document}
  
-\title{Definition of a Derivative}
+\title{Classwork 01}
 \author{Sharon Kim, Kynan Barton, Kristalee Lio}
 \affiliation{CS 510, Schmid College of Science and Technology, Chapman University}
 \date{\today}
 
-
+\maketitle
 
 \section{The Derivative}
 
+\noindent \textbf{Definition.}
+Let \textbf{\textit{y = f(x)}} be a function. The derivative of f is the function whose value at \textbf{\textit{x}} is the limit provided this limit exists.
 
-
-Let $y = f(x)$ be a function. The derivative of f is the function whose value at x is the limit provided this limit exists.
-
-
-\begin{align}
+\begin{align*}
 f'(x) &= \lim_{h \to 0} \frac{f(x+h)-f(x)}{h}.
-\end{align}
+\end{align*}
 
+\noindent If this limit exists for each \textbf{\textit{x}} in an open interval \textbf{\textit{I}}, then we say that \textit{f} is differentiable on I.
 
+\bigskip
+\noindent \textbf{Example.}
+Find the derivative of the following function using the definition of the derivative.
+\begin{align*}
+f(x) &= 2x^2-16x+35
+\end{align*}
 
+\noindent \textbf{Solution.}
+Plug this function into the definition of the derivative, and do some algebra. First plug the function into the definition of the derivative. Then multiply everything out. Notice that every term in the numerator that did not have an h in it cancelled out. We can now factor an h out of the numerator which we will cancel against the h in the denominator. After that, we can compute the limit.
+\begin{align*}
+f'(x) &= \lim_{h \to 0} \frac{f(x+h)-f(x)}{h} \\
+&= \lim_{h \to 0} \frac{2(x+h)^2 -16(x+h) +35 -(2x^2-16x+35)}{h} \\
+&= \lim_{h \to 0} \frac{2x^2 +4xh +2h^2 -16x -16h +35 -2x^2+16x-35}{h}\\
+&= \lim_{h \to 0} \frac{4xh +2h^2 -16h}{h} \\
+&= \lim_{h \to 0} \frac{h(4x+2h-16)}{h} \\
+&= \lim_{h \to 0} 4x+2h-16 \\
+f'(x) &= 4x-16
+\end{align*}
 
-If this limit exists for each x in an open interval I, then we say that f is differentiable on I.
+\noindent \textbf{Figure.}
 
-
-
-
-
-
-
-
-
-
-
-
-
-Figures can be included easily.
-
-\begin{figure}[h!] % h forces the figure to be placed here, in the text
- \includegraphics[width=0.4\textwidth]{Introductory_Physics_fig_1_15.png}  % if pdflatex is used, jpg, pdf, and png are permitted
-  \caption{The figure caption goes here.}
+\begin{figure}[h!]
+ \includegraphics[width=0.6\textwidth]{derivativedefinition.JPG}
+  \caption{}
   \label{fig:figlabel}
 \end{figure}
 
-This text should be below the figure unless \LaTeX  decides that a different layout works better.
- 
+\noindent Figure 1 shows a graphical representation of the definition of a derivative. f'(x) represents the slope of f(x) at an arbitrary point in it's domain.
 
- 
+\section{References}
+\noindent Lawrence S. Husch. \textit{Husch: Definition of Derivative.} \\ URL: http://archives.math.utk.edu/visual.calculus/2/definition.12/
+\\
+\\
+\noindent Paul Dawkins. \textit{Dawkins: The Definition of the Derivative.} \\ URL: http://tutorial.math.lamar.edu/Classes/CalcI/DefnOfDerivative.aspx
+\\
+\\
+\noindent \textit{Limits and Derivatives} URL: https://learnmathforfree.jimdo.com/calculus/limits-and-derivatives/
+\\
+\\
+\noindent Jeff Cruzan. \textit{Cruzan: The Derivative} URL: http://www.drcruzan.com/TheDerivative.html
+
 \end{document}
