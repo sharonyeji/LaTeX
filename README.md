@@ -13,7 +13,7 @@ Complete the following exercises, saving your solutions in the indicated files.
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**This classwork assignment was useful because it helped our group collaborate with one another in completing a task, even when we could not physically meet with one another.  It also helped the group practice cloning, pushing, and pulling the files in our repository.  **
+**This classwork assignment was useful because it helped our group collaborate with one another in completing a task, even when we could not physically meet with one another.  It also helped the group practice cloning, pushing, and pulling the files in our repository. We were able to familiarize ourselves with latex as well as sage. **
 
 ## Honor Pledge
 
