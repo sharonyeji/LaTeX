@@ -1,6 +1,6 @@
 # CS510 CW 1
 
-**Author(s):** _\<your name(s)\>_
+**Author(s):** _\Sharon Kim, Kynan Barton, Kristalee Lio\>_
 
 ## Specification
 
@@ -13,7 +13,7 @@ Complete the following exercises, saving your solutions in the indicated files.
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**This classwork assignment was useful because it helped our group collaborate with one another in completing a task, even when we could not physically meet with one another.  It also helped the group practice cloning, pushing, and pulling the files in our repository.  **
 
 ## Honor Pledge
 
@@ -24,4 +24,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Sharon Kim, Kynan Barton, Kristalee Lio**
