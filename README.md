@@ -25,3 +25,6 @@ I pledge that all the work in this repository is my own with only the following 
 Signed,
 
 **Sharon Kim, Kynan Barton, Kristalee Lio**
+
+testlatex.tex
+![GitHub Logo](testlateximg.png)
