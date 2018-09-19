@@ -26,5 +26,5 @@ Signed,
 
 **Sharon Kim, Kynan Barton, Kristalee Lio**
 
-testlatex.tex
+testlatex.tex:
 ![GitHub Logo](testlateximg.png)
