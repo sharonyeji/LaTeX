@@ -27,4 +27,4 @@ Signed,
 **Sharon Kim, Kynan Barton, Kristalee Lio**
 
 testlatex.tex:
-![testlatex preview](testlateximg.png)
+![testlatex](testlatex.pdf)
